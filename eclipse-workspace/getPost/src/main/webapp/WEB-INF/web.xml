@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>Name</display-name>
+	<servlet>
+		<servlet-name>GetHandler</servlet-name>
+		<servlet-class>com.simplilearn.servlets.GetHandler</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PostHandler</servlet-name>
+		<servlet-class>com.simplilearn.servlets.PostHandler</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetHandler</servlet-name>
+		<url-pattern>/GetHandler</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PostHandler</servlet-name>
+		<url-pattern>/PostHandler</url-pattern>
+	</servlet-mapping>
+</web-app>

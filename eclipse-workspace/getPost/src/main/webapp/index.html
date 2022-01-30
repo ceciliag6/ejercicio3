@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Entry Point of the application</title>
+</head>
+<body>
+	<h1>Welcome to the application</h1>
+	<h2>HTML Forms</h2>
+	
+	<h3>Get form</h3>
+	<form action="GetHandler" method="get">
+	  <label for="username">First name:</label><br>
+	  <input type="text" id="username" name="username"><br>
+	  <label for="password">Last name:</label><br>
+	  <input type="text" id="password" name="password"><br><br>
+	  <input type="submit" value="Submit">
+	</form> 
+	<br>
+	<br>
+	
+	<h3>Post form</h3>
+	<form action="PostHandler" method="post">
+	  <label for="username">First name:</label><br>
+	  <input type="text" id="username" name="username"><br>
+	  <label for="password">Last name:</label><br>
+	  <input type="text" id="password" name="password"><br><br>
+	  <input type="submit" value="Submit">
+	</form> 	
+	
+	<p>If you click the "Submit" button, the form-data will be sent to a page called "GetHandler".</p>		
+</body>
+</html>
