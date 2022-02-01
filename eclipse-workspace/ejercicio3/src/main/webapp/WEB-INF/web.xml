@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+  	<param-name>parame1</param-name>
+  	<param-value>com.mysql.jdbc.driver</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>parame2</param-name>
+  	<param-value>com.oracle</param-value>
+  </context-param>
+  <servlet>
+  	<servlet-name>Servlet1</servlet-name>
+  	<display-name>Servlet1</display-name>
+  	<description>Mi Servlet1</description>
+  	<init-param>
+  		<param-name>sql</param-name>
+  		<param-value>select * from dual</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>db</param-name>
+  		<param-value>Oracle</param-value>
+  	</init-param>
+  	<servlet-class>com.simplilearn.servlets.Servlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet2</servlet-name>
+  	<display-name>Servlet2</display-name>
+  	<description></description>
+  	<servlet-class>com.simplilearn.servlets.Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Servlet1</servlet-name>
+  	<url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet2</servlet-name>
+  	<url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+</web-app>
