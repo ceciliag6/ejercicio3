@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.simplilearn.servlets.MyServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>MyServletDos</servlet-name>
+  	<display-name>MyServletDos</display-name>
+  	<description></description>
+  	<servlet-class>com.simplilearn.servlets.MyServletDos</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>MyServlet</servlet-name>
   	<url-pattern>/myservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MyServletDos</servlet-name>
+  	<url-pattern>/myservletdos</url-pattern>
   </servlet-mapping>
 </web-app>

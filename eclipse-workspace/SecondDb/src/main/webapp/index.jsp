@@ -9,5 +9,6 @@
 <body>
 	<h1>Conexion jdbc</h1>
 	<a href="myservlet">myservlet</a>
+	<a href="myservletdos">myservlet2</a>
 </body>
 </html>
